@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main - main block
- * Description: Use `putchar` function to print the alphabet in lowercase.
+ * main - main
+ * Description: Use putchar
  * Return: 0
  */
 int main(void)
 {
 	char c = 'a';
-	
+
 	while (c <= 'z')
 	{
 		putchar(c);
