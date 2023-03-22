@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Program exec
+ * print_alphabet - Program exec
  * Description - Writing the aplhabet
  * Return: 0
  */
