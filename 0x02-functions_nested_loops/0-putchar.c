@@ -1,8 +1,10 @@
 #include "main.h"
 /*
- * main - Print _putchar
- * Return: 0
- * Descr: Printing without std libs
+ * main - Entry point for the program
+ *
+ * Description: Printing without std libs
+ *
+ * Return: Always (0)
  */
 int main(void)
 {
