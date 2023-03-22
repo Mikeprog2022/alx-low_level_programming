@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * main - Entry point for the program
  *
  * Description: Printing without std libs
