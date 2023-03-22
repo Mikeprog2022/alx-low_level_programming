@@ -6,6 +6,13 @@
  */
 int main(void)
 {
-	print_alphabet();
-	_putchar('\n');
+	char x[] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+
+	for (i = 0; x[i] != '\0'; i++)
+	{
+		_putchar(x[i]);
+	}
+	putchar('\n');
+	return (0);
 }
