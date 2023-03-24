@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * print_most_numbers - Dont print 2 and 4
- * i: int
  * Return: 0-9 wihtout 2,4
  */
 void print_most_numbers(void)
