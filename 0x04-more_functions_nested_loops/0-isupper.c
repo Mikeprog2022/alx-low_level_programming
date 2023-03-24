@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
  * _isupper - Check for upper
  * @x: int
- *
- * Return: 1/0
+ * Return: 0/1
  */
 int _isupper(int x)
 {
