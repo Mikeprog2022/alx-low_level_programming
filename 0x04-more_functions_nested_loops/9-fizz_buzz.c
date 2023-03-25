@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * main - prints nums
  * Return: 0
@@ -8,7 +7,7 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; i <= 100; i++)
+	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0)
 		{
@@ -24,13 +23,8 @@ int main(void)
 		}
 		else
 		{
-			printf("%d", i);
-		}
-		if (i != 100)
-		{
-			printf(" ");
+			printf("%d ", i);
 		}
 	}
-	printf("\n");
 	return (0);
 }
