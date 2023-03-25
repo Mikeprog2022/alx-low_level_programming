@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 /**
  * main - prints nums
@@ -17,7 +18,7 @@ int main(void)
 		{
 			printf("Buzz");
 		}
-		else if (i % 5 == 0 && i % 3 == 0)
+		else if ((i % 5 == 0) && (i % 3 == 0))
 		{
 			printf("FizzBuzz");
 		}
@@ -25,11 +26,14 @@ int main(void)
 		{
 			printf("%d", i);
 		}
+
 		if (i != 100)
 		{
 			printf(" ");
 		}
 	}
+
 	printf("\n");
+
 	return (0);
 }
