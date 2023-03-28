@@ -10,7 +10,7 @@ void print_rev(char *s)
 
 	while (s[x] != '\0')
 	{
-		c++;
+		x++;
 		for (x -= 1; x >= 0; x--)
 		{
 			_putchar(s[x]);
