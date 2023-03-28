@@ -8,9 +8,10 @@ void print_rev(char *s)
 {
 	int x;
 
-	for (x = 0; s[x] != '\0'; x++)
+	while (s[x] != '\0')
 	{
-		for (x--; x >= 0; x--)
+		c++;
+		for (x -= 1; x >= 0; x--)
 		{
 			_putchar(s[x]);
 		}
